@@ -1,0 +1,4 @@
+collector_listen_address: ff02::1:2164%mgmt:12164
+http_listen_address: "[::]:8123"
+join_mcast_group: true
+max_msg_size: 524288
