@@ -1,6 +1,8 @@
 {
   description = "now-collector";
 
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable-small";
+
   outputs = { self, nixpkgs }: let
     overlay = final: prev: {
       now-collector = final.callPackage (
